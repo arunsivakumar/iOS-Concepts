@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99C33E5ED21ABFE9F71E1D8D53A59A061DFF6F20",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "99C33E5ED21ABFE9F71E1D8D53A59A061DFF6F20" : 9223372036854775807,
+    "883447A0A1646D7314272AC3C466A2B94B1DAEDF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3DCABB13-2094-4F21-B3ED-0A0B494FB39B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "99C33E5ED21ABFE9F71E1D8D53A59A061DFF6F20" : "WhaleTalk\/",
+    "883447A0A1646D7314272AC3C466A2B94B1DAEDF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WhaleTalk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WhaleTalk.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arunsivakumar\/iOS-Concepts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "883447A0A1646D7314272AC3C466A2B94B1DAEDF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arunsivakumar\/WhaleTalk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99C33E5ED21ABFE9F71E1D8D53A59A061DFF6F20"
+    }
+  ]
+}
