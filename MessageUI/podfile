@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+ 
+platform :ios, '8.0'
+ 
+use_frameworks!
+
+pod 'Smooch'
+pod 'JSQMessagesViewController'
+pod 'Alamofire'
+pod 'AlamofireImage'
+pod 'SDWebImage/WebP'
+pod 'Kingfisher', '~> 2.2'
+pod 'Parse'
