@@ -134,7 +134,6 @@ class MapViewController: UIViewController {
     }
     
     private var userSelectedLocation:MKMapItem?{
-        W
         didSet{
             if let userSelectedLocation = userSelectedLocation {
                 setPinOnMap(for:userSelectedLocation.placemark)
