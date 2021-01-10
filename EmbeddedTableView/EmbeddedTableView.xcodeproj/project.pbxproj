@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		F4D765C725AAEC2300919702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765C625AAEC2300919702 /* AppDelegate.swift */; };
-		F4D765C925AAEC2300919702 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765C825AAEC2300919702 /* SceneDelegate.swift */; };
-		F4D765CB25AAEC2300919702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765CA25AAEC2300919702 /* ViewController.swift */; };
+		F4D765CB25AAEC2300919702 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765CA25AAEC2300919702 /* ListViewController.swift */; };
 		F4D765CE25AAEC2300919702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D765CC25AAEC2300919702 /* Main.storyboard */; };
 		F4D765D025AAEC2400919702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D765CF25AAEC2400919702 /* Assets.xcassets */; };
 		F4D765D325AAEC2400919702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D765D125AAEC2400919702 /* LaunchScreen.storyboard */; };
 		F4D765DC25AAEF9000919702 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765DB25AAEF9000919702 /* CustomTableViewCell.swift */; };
+		F4D765E525AB130F00919702 /* WidgetsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765E425AB130F00919702 /* WidgetsContainerViewController.swift */; };
+		F4D765F625AB154800919702 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765EF25AB154800919702 /* Set.swift */; };
+		F4D765F725AB154800919702 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765F225AB154800919702 /* Collection.swift */; };
+		F4D765F825AB154800919702 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765F525AB154800919702 /* UIAlertController.swift */; };
+		F4D765F925AB154800919702 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765F025AB154800919702 /* UITableViewCell.swift */; };
+		F4D765FA25AB154800919702 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765EE25AB154800919702 /* UIViewController.swift */; };
+		F4D765FB25AB154800919702 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765F425AB154800919702 /* UIWindow.swift */; };
+		F4D765FC25AB154800919702 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765F325AB154800919702 /* Identifier.swift */; };
+		F4D765FD25AB154800919702 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D765F125AB154800919702 /* UIView.swift */; };
+		F4D7660725AB46C400919702 /* WidgetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7660625AB46C400919702 /* WidgetsViewController.swift */; };
+		F4D7661625AB52E300919702 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D7661425AB52E300919702 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4D765C325AAEC2300919702 /* EmbeddedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D765C625AAEC2300919702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4D765C825AAEC2300919702 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4D765CA25AAEC2300919702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D765CA25AAEC2300919702 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F4D765CD25AAEC2300919702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D765CF25AAEC2400919702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D765D225AAEC2400919702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D765D425AAEC2400919702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D765DB25AAEF9000919702 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F4D765E425AB130F00919702 /* WidgetsContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsContainerViewController.swift; sourceTree = "<group>"; };
+		F4D765EE25AB154800919702 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		F4D765EF25AB154800919702 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		F4D765F025AB154800919702 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		F4D765F125AB154800919702 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F4D765F225AB154800919702 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		F4D765F325AB154800919702 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		F4D765F425AB154800919702 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		F4D765F525AB154800919702 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		F4D7660625AB46C400919702 /* WidgetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsViewController.swift; sourceTree = "<group>"; };
+		F4D7661425AB52E300919702 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +78,34 @@
 		F4D765C525AAEC2300919702 /* EmbeddedTableView */ = {
 			isa = PBXGroup;
 			children = (
+				F4D7660A25AB48E300919702 /* Extension */,
 				F4D765C625AAEC2300919702 /* AppDelegate.swift */,
-				F4D765C825AAEC2300919702 /* SceneDelegate.swift */,
-				F4D765CA25AAEC2300919702 /* ViewController.swift */,
+				F4D765CA25AAEC2300919702 /* ListViewController.swift */,
+				F4D765E425AB130F00919702 /* WidgetsContainerViewController.swift */,
+				F4D7660625AB46C400919702 /* WidgetsViewController.swift */,
 				F4D765DB25AAEF9000919702 /* CustomTableViewCell.swift */,
+				F4D7661425AB52E300919702 /* CustomTableViewCell.xib */,
 				F4D765CC25AAEC2300919702 /* Main.storyboard */,
 				F4D765CF25AAEC2400919702 /* Assets.xcassets */,
 				F4D765D125AAEC2400919702 /* LaunchScreen.storyboard */,
 				F4D765D425AAEC2400919702 /* Info.plist */,
 			);
 			path = EmbeddedTableView;
+			sourceTree = "<group>";
+		};
+		F4D7660A25AB48E300919702 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4D765F225AB154800919702 /* Collection.swift */,
+				F4D765F325AB154800919702 /* Identifier.swift */,
+				F4D765EF25AB154800919702 /* Set.swift */,
+				F4D765F525AB154800919702 /* UIAlertController.swift */,
+				F4D765F025AB154800919702 /* UITableViewCell.swift */,
+				F4D765F125AB154800919702 /* UIView.swift */,
+				F4D765F425AB154800919702 /* UIWindow.swift */,
+				F4D765EE25AB154800919702 /* UIViewController.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D765D325AAEC2400919702 /* LaunchScreen.storyboard in Resources */,
+				F4D7661625AB52E300919702 /* CustomTableViewCell.xib in Resources */,
 				F4D765D025AAEC2400919702 /* Assets.xcassets in Resources */,
 				F4D765CE25AAEC2300919702 /* Main.storyboard in Resources */,
 			);
@@ -140,10 +179,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D765CB25AAEC2300919702 /* ViewController.swift in Sources */,
+				F4D765FD25AB154800919702 /* UIView.swift in Sources */,
+				F4D765F925AB154800919702 /* UITableViewCell.swift in Sources */,
+				F4D765CB25AAEC2300919702 /* ListViewController.swift in Sources */,
 				F4D765C725AAEC2300919702 /* AppDelegate.swift in Sources */,
+				F4D765F625AB154800919702 /* Set.swift in Sources */,
+				F4D765FB25AB154800919702 /* UIWindow.swift in Sources */,
+				F4D765FA25AB154800919702 /* UIViewController.swift in Sources */,
 				F4D765DC25AAEF9000919702 /* CustomTableViewCell.swift in Sources */,
-				F4D765C925AAEC2300919702 /* SceneDelegate.swift in Sources */,
+				F4D765F825AB154800919702 /* UIAlertController.swift in Sources */,
+				F4D765E525AB130F00919702 /* WidgetsContainerViewController.swift in Sources */,
+				F4D765F725AB154800919702 /* Collection.swift in Sources */,
+				F4D7660725AB46C400919702 /* WidgetsViewController.swift in Sources */,
+				F4D765FC25AB154800919702 /* Identifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -9,11 +9,16 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var cellId: UILabel!
+    @IBOutlet weak var cellImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        cellId.text = ""
         let indexPath = self.indexPath.flatMap { print($0) }
         print("awake: \(self.tag)")
+        cellId.text = "\(self.tag)"
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -25,7 +30,7 @@ class CustomTableViewCell: UITableViewCell {
     override func prepareForReuse() {
         let indexPath = self.indexPath.flatMap { print($0) }
         print("reuse: \(self.tag)")
-
+        cellId.text = "\(self.tag)"
     }
     
     func getIndexPath() -> IndexPath? {
